@@ -32,6 +32,6 @@ jobs:
         run: |
           pylama .
 
-#      - name: pytest
-#        run: |
-#          py.test -s -v -x tests
+      - name: pytest
+        run: |
+          py.test -s -v test_simple.py
